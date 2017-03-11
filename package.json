@@ -60,7 +60,7 @@
     "write-file-webpack-plugin": "^3.4.2"
   },
   "dependencies": {
-    "boilerplate-styles": "^1.0.3",
+    "boilerplate-styles": "^2.0.0",
     "normalize.css": "^5.0.0"
   }
 }
