@@ -5,6 +5,7 @@ a lightweight template for simple frontend sites
 
 ### features
 
+- basic react support
 - JS bundling provided by the webpack core
 - SASS transpilation: "sass-loader" transforms SASS into CSS. "css-loader" parses the CSS into JS and resolves any dependencies. "style-loader" outputs our CSS into a style tag in the document.
 - "html-webpack-plugin" will inject all bundled js and css files into the html file
@@ -16,7 +17,6 @@ a lightweight template for simple frontend sites
 - "file-loader" and "url-loader" are resolving image references in css files
 - "eslint" installed as a local npm package with associated .eslintrc config to allow your code editor (e.g. vscode) make use of linting-plugins
 
-### todo
 
 
 ### other ressources
