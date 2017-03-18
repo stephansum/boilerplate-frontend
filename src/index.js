@@ -1,17 +1,18 @@
-import "./custom.scss";
+import "./index.scss";
+
 import React from "react";
-import $ from "jquery";
 import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
-var MyApp = React.createClass({
+
+var App = React.createClass({
     render: function() {
         return (
-            <h1>Up and running :-)</h1>
+            <h1>React is up and running :-)</h1>
         );
     }
 });
 
-ReactDOM.render(
-    <MyApp />, $("#app")[0]
-);
+
+ReactDOM.render(<App />, document.getElementById("app"));
